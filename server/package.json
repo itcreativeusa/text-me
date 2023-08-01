@@ -1,18 +1,27 @@
 {
-    "name": "JATE",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-        "server": "nodemon server.js --ignore client"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "express": "^4.17.1"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.4"
-    }
+  "name": "JATE",
+  "version": "1.0.0",
+  "description": "Text editor that runs in the browser and creates notes or code snippets with or without an internet connection.",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js --ignore client"
+  },
+  "keywords": [
+    "PWA",
+    "text editor",
+    "code editor",
+    "offline",
+    "online",
+    "notes",
+    "code snippets",
+    "browser"
+  ],
+  "author": "kateryna stetsenko",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
