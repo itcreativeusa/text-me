@@ -26,7 +26,7 @@ Run `npm run start` from the root directory to start the server.
 
 ## Requirements
 
-- MongoDB
+N/A
 
 ## Usage
 

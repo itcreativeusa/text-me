@@ -1,5 +1,5 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "version": "1.0.0",
   "description": "Text editor that runs in the browser and creates notes or code snippets with or without an internet connection.",
   "main": "server.js",
@@ -22,6 +22,8 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "eslint": "^8.46.0",
+    "eslint-plugin": "^1.0.1",
     "nodemon": "^2.0.4"
   }
 }
