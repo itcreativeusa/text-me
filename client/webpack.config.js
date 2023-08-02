@@ -12,6 +12,7 @@ module.exports = () => {
     entry: {
       main: "./src/js/index.js",
       install: "./src/js/install.js",
+      header: "./src/js/header.js",
     },
     output: {
       filename: "[name].bundle.js",
@@ -22,7 +23,7 @@ module.exports = () => {
       // Webpack plugin that generates our html file and injects our bundles.
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "Contact Cards",
+        title: "JATE",
       }),
 
       // Injects our custom service worker
@@ -35,9 +36,10 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: "Contact Cards",
-        short_name: "Contact",
-        description: "Never forget your contacts!",
+        name: "Just another text editor",
+        short_name: "JATE",
+        description:
+          "Text editor that runs in the browser and creates notes or code snippets with or without an internet connection!",
         background_color: "#225ca3",
         theme_color: "#225ca3",
         start_url: "./",
