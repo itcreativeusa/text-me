@@ -3,7 +3,7 @@
 ## Description
 
 Deployed application link on GitHub
-https://github.com/itcreativeusa/text-me
+https://github.com/itcreativeusa/text-me-jate
 
 Deployed application link on Heroku
 
