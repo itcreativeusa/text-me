@@ -24,7 +24,8 @@
   "author": "kateryna stetsenko",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "webpack-pwa-manifest": "^4.3.0"
   },
   "devDependencies": {
     "eslint": "^8.46.0",
