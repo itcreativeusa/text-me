@@ -32,6 +32,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
     "@babel/plugin-transform-runtime": "^7.22.9",
+    "css-loader": "^6.8.1",
     "eslint": "^8.46.0",
     "eslint-plugin": "^1.0.1",
     "html-webpack-plugin": "^5.5.3",
