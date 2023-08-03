@@ -29,6 +29,6 @@
     "eslint": "^8.46.0",
     "eslint-plugin": "^1.0.1",
     "html-webpack-plugin": "^5.5.3",
-    "nodemon": "^2.0.4"git 
+    "nodemon": "^2.0.4"
   }
 }
