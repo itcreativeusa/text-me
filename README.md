@@ -37,9 +37,6 @@ Run `npm run start` from the root directory to start the server.
 Screenshot located in `./img/` folder
 
 ![Create user](img/Screenshot-1.png)
-![All users](img/Screenshot-2.png)
-![Add reaction](img/Screenshot-3.png)
-![Create thought](img/Screenshot-4.png)
 
 ## Credits
 
