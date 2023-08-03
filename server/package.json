@@ -1,12 +1,12 @@
 {
-  "name": "jate",
+  "name": "jate-server",
   "version": "1.0.0",
   "description": "Text editor that runs in the browser and creates notes or code snippets with or without an internet connection.",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon server.js --ignore client",
+    "start:dev": "nodemon server.js --ignore client",
     "start": "node server.js",
-    "build": "npm install --only=dev && npm run webpack"
+    "build": "npm install && npm run webpack"
   },
   "keywords": [
     "PWA",
@@ -25,7 +25,6 @@
   },
   "devDependencies": {
     "eslint": "^8.46.0",
-    "eslint-plugin": "^1.0.1",
     "html-webpack-plugin": "^5.5.3",
     "nodemon": "^2.0.4",
     "webpack": "^5.51.1",
