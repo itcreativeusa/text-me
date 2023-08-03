@@ -21,14 +21,17 @@
   "author": "kateryna stetsenko",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "webpack-cli": "^4.7.2"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "eslint": "^8.46.0",
     "eslint-plugin": "^1.0.1",
-    "webpack": "^5.88.2",
     "html-webpack-plugin": "^5.5.3",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.0.0",
+    "webpack-pwa-manifest": "^4.3.0",
+    "workbox-webpack-plugin": "^6.2.4"
   }
 }
