@@ -1,6 +1,6 @@
 // Import methods to save and get data from the indexedDB database in './database.js'
 import { getDb, putDb } from "./database";
-import { header } from "./header";
+import { header } from "./header.js";
 
 export default class {
   constructor() {
@@ -12,7 +12,7 @@ export default class {
     }
 
     this.editor = CodeMirror(document.querySelector("#main"), {
-      value: "",
+      value: header,
       mode: "javascript",
       theme: "monokai",
       lineNumbers: true,
@@ -36,6 +36,12 @@ export default class {
     // Save the content of the editor when the editor itself is loses focus
     this.editor.on("blur", () => {
       console.log("The editor has lost focus");
+      putDb(localStorage.getItem("content"));
+    });
+
+    // Event listener for window blur event
+    window.addEventListener("blur", () => {
+      console.log("The window has lost focus");
       putDb(localStorage.getItem("content"));
     });
   }
