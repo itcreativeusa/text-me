@@ -30,6 +30,7 @@
     "workbox-webpack-plugin": "^7.0.0"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
     "eslint": "^8.46.0",
     "eslint-plugin": "^1.0.1",
     "html-webpack-plugin": "^5.5.3",
