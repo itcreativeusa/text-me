@@ -6,6 +6,7 @@ Deployed application link on GitHub
 https://github.com/itcreativeusa/text-me-jate
 
 Deployed application link on Heroku
+https://text-me-jate-5c615299d998.herokuapp.com/
 
 Text-me Progressive Web Application is a text editor that runs in the browser and creates notes or code snippets with or without an internet connection.
 Application have an option to install as a Progressive Web Application.
