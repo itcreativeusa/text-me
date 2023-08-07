@@ -8,6 +8,7 @@ https://github.com/itcreativeusa/text-me-jate
 Deployed application link on Heroku
 
 Text-me Progressive Web Application is a text editor that runs in the browser and creates notes or code snippets with or without an internet connection.
+Application have an option to install as a Progressive Web Application.
 
 ## Table of Contents
 
@@ -20,9 +21,7 @@ Text-me Progressive Web Application is a text editor that runs in the browser an
 
 ## Installation
 
-Use command-line to run the application.
-Run `npm install` to install the required dependencies.
-Run `npm run start` from the root directory to start the server.
+N/A
 
 ## Requirements
 
@@ -30,13 +29,14 @@ N/A
 
 ## Usage
 
-Run `npm run start` from the root directory to start the server.
+Open heroku link in the browser and start using the application.
+To install application as a Progressive Web Application click on the install button in the address bar.
 
 ## Screenshots
 
 Screenshot located in `./img/` folder
-
-![Create user](img/Screenshot-1.png)
+![Text editor](img/Screenshot.png)
+![Install application](img/Screenshot-2.png)
 
 ## Credits
 
