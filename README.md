@@ -1,4 +1,4 @@
-# link-minds
+# text-me-jate
 
 ## Description
 
